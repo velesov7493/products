@@ -1,0 +1,12 @@
+language: java
+jdk:
+  - openjdk14
+
+sudo: false
+
+notifications:
+  email:
+    recipients:
+      - velesov7493@yandex.ru
+    on_success: never # default: change
+    on_failure: always # default: always
